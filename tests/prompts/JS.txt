@@ -1,0 +1,1 @@
+We are using JS to modify the twentytwentyfour WordPress theme. mods-2024.js is already loaded and is working. We need to re-factor. We now want to hide this element: <mods-2024.js></mods-2024.js>

@@ -1,0 +1,34 @@
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+    envs: tests/_envs
+actor_suffix: Tester
+extensions:
+    enabled:
+        - Codeception\Extension\RunFailed
+coverage:
+    enabled: true
+    include:
+        - /src/Cacbot/*
+    exclude:
+env:
+    localhost:
+        modules:
+            config:
+                WebDriver:
+                    url: 'http://localhost'
+#                    browser: 'chrome'
+    remote_node:
+        modules:
+            config:
+                WebDriver:
+                    url: 'http://remote_node'
+#                    browser: 'firefox'
+    mothership:
+        modules:
+            config:
+                WebDriver:
+                    url: 'http://mothership'
+#                    browser: 'chrome'

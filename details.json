@@ -1,0 +1,8 @@
+ {
+ 	"name" : "Cacbot",
+ 	"version" : "4",
+ 	"download_url" : "https://cacbot.com/wp-content/uploads/cacbot.zip",
+ 	"sections" : {
+ 		"description" : "Talk to the Aions homie."
+ 	}
+ }
